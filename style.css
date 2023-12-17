@@ -175,32 +175,56 @@ h1, p {
     body {
       font-size: 16px;
     }
-  
     .container {
-      grid-template-columns: 100%;
+      display: flex;
+      height: auto;
     }
-  
+    .principal {
+        height: 100vh;
+        background-position: center;
+    }
     .inicio {
       margin: 0 2em;
     }
-  
-    .secundario {
-      margin: 0 2em;
+    .botao-container {
+        width: 70%;
     }
-  
+    .botao-secundario-container {
+        width: 70%;
+    }
+    .container_e {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container_d {
+        display: flex;
+        flex-direction: column;
+    }
+    .secundario {
+      margin: 8em 0 8em 0;
+    }
+    img {
+        margin: 2em 0 0 0;
+    }
     .secundario-imagem {
       width: 100%;
     }
-  
     .container-descricao {
       padding: 1em;
     }
-  
+    .dispositivos-titulo {
+        font-size: 20px;
+    }
     .dispositivos-lista {
       margin: 2em 0 2em 0;
       flex-direction: column;
     }
-  
+    .lista-item {
+        font-size: 18px;
+    }
+    .rodape-logo {
+        width: 80%;
+    }
     .rodape {
       margin: 2em 1em;
     }
