@@ -210,6 +210,9 @@ h1, p {
     .descricao-titulo{
         font-size: 30px;
     }
+    .frozen-wilds {
+        width: 80%;
+    }
     .secundario {
       margin: 8em 0 8em 0;
     }
