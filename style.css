@@ -66,6 +66,7 @@ h1, p {
 
 .botao-container {
     background-color: var(--botao-azul);
+    border: solid 2px var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     display: block;
@@ -174,23 +175,29 @@ h1, p {
 @media only screen and (max-width: 600px) {
     body {
       font-size: 16px;
+      width: 100%;
     }
     .container {
       display: flex;
       height: auto;
     }
     .principal {
-        height: 100vh;
+        height: 680px;
         background-position: center;
+        width: 100%;
     }
     .inicio {
       margin: 0 2em;
     }
+    .img-inicio {
+        margin: 1em 0 2em 0;
+        width: 100%;
+    }
     .botao-container {
-        width: 70%;
+        width: 90%;
     }
     .botao-secundario-container {
-        width: 70%;
+        width: 90%;
     }
     .container_e {
         display: flex;
@@ -199,6 +206,9 @@ h1, p {
     .container_d {
         display: flex;
         flex-direction: column;
+    }
+    .descricao-titulo{
+        font-size: 30px;
     }
     .secundario {
       margin: 8em 0 8em 0;
